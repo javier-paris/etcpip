@@ -1,0 +1,19 @@
+* Implement a protocol switch instead of calling protocols directly
+* Put a timeout to arp cache
+* Put a timeout to arp solving
+* Rewrite Ip Routing
+* Add IP Options support
+* Ip Sending Fragmentation Support
+* Add a timeout to Ip fragments
+* Move Process registering out of proccesses themselves
+* Add support for more than one ip
+* Implement locking in the tcb
+* Add support for more options in tcp_packet
+* Implement tcp_con:abort
+* Implement all events for closed and syn_sent
+* Send a reset in closed state
+* Implement resets in listen state
+* Some resets must send data from packet and not from tcb
+* Better management of out of order data
+* Fix close for listen state
+* Correct set sdata so it only awakens the writer when is waiting
